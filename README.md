@@ -15,9 +15,9 @@ Briefly describe what the dataset is about (e.g. passengers on the Titanic, hous
  Target or key variable: Survived
 
  ## 3. Project Structure
-   ├── data/               # Raw / processed data (or empty with instructions)
-   ├── notebook/          # Jupyter notebooks for EDA
-   ├── images/             # Figures and plots generated during EDA
+     ├── data/               # Raw / processed data (or empty with instructions)
+     ├── notebook/          # Jupyter notebooks for EDA
+     ├── images/             # Figures and plots generated during EDA
    README.md           # Project documentation
    requirements.txt
    report.html           # Report produced using Library
@@ -53,10 +53,11 @@ Edit these bullets to match your real questions.
 
 
 # 6. How to Run the EDA
-       Open the main notebook in notebooks/, for example:
+     Open the main notebook in notebooks/, for example:
+       
         notebooks/ 01_eda_[short-name].ipynb
 
-       Run the notebook cells sequentially to:
+     Run the notebook cells sequentially to:
          Load the dataset
          Perform data cleaning and preprocessing
          Generate descriptive statistics
