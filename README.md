@@ -18,12 +18,13 @@ Briefly describe what the dataset is about (e.g. passengers on the Titanic, hous
      ├── data/               # Raw / processed data (or empty with instructions)
      ├── notebook/          # Jupyter notebooks for EDA
      ├── images/             # Figures and plots generated during EDA
-   README.md           # Project documentation
-   requirements.txt
-   report.html           # Report produced using Library
+     README.md           # Project documentation
+     requirements.txt
+     report.html           # Report produced using Library
 
 ## 4. Objectives
 In this EDA, the main questions explored include:
+
      What is the overall structure and quality of the dataset (missing values, duplicates, data types, outliers)?
      How are the key features distributed?
      What relationships exist between the main variables (correlations, group comparisons)? 
@@ -33,6 +34,7 @@ Edit these bullets to match your real questions.
 
 # 5. Getting Started
 ## 5.1. Prerequisites
+
    Python 3.x
    Recommended libraries (also listed in requirements.txt):
      pandas
@@ -53,11 +55,12 @@ Edit these bullets to match your real questions.
 
 
 # 6. How to Run the EDA
-     Open the main notebook in notebooks/, for example:
+    Open the main notebook in notebooks/, for example:
        
         notebooks/ 01_eda_[short-name].ipynb
 
-     Run the notebook cells sequentially to:
+    Run the notebook cells sequentially to:
+    
          Load the dataset
          Perform data cleaning and preprocessing
          Generate descriptive statistics
@@ -69,6 +72,7 @@ If you use scripts instead of notebooks, explain the commands needed to run them
 # 7. Key Findings
 
 ### Summarize the most important insights from your EDA, such as:
+
      Important patterns or trends in key variables
      Significant relationships between features 
      Notable outliers, missing data patterns, or data quality issues
@@ -80,6 +84,7 @@ If you use scripts instead of notebooks, explain the commands needed to run them
 # 8. Future Work
 
 ### Possible extensions of this project:
+
       Feature engineering and preprocessing for machine learning
       Building predictive or descriptive models (classification, regression, clustering)
       Deploying results in a dashboard or report
@@ -87,6 +92,7 @@ If you use scripts instead of notebooks, explain the commands needed to run them
 
 # 9. Limitations
 ### Briefly discuss:
+
       Data limitations (size, coverage, bias, missing information)
       Assumptions made during cleaning and analysis
       Any constraints that affect interpretation of the results
